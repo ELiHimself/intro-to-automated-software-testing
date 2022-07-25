@@ -1,0 +1,22 @@
+{
+  "name": "testing-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test:unit:int": "jest",
+    "test:e2e:run": "cypress run",
+    "test:e2e:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
